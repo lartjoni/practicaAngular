@@ -1,0 +1,43 @@
+/*barra navegacion*/
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 1%;
+}
+
+.logo-navegador {
+    display: flex;
+
+}
+
+.texto-navegador {
+    margin: auto;
+    color: rgba(248, 203, 0, 0.76);
+}
+
+/* (margin-left:auto) coloco iconos y boton a la derecha*/
+.icono-redes {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icono-redes a {
+    padding: 10px;
+    margin: 10px;
+    transition: all 0.2s ease-in;
+}
+
+.icono-redes i {
+    color: aqua;
+    font-size: 20px;
+    transition: all 0.2s ease-in;
+}
+
+
+.icono-redes i:hover {
+    font-size: 120%;
+    color: coral;
+    border-radius: 100%;
+
+}
