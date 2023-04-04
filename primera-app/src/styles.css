@@ -54,22 +54,22 @@
 
 button {
     border-radius: 100%;
-    color: black;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .bi-pencil {
-    font-size: 120%;
-    transition: all 0.2s ease-in-out;
+    font-size: 100%;
+    transition: all 0.3s ease-in-out;
 }
 
 /* "hover" se usa para que entienda el cursor */
 
 button:hover {
-    font-size: 120%;
+    font-size: 100%;
     background-color: gray;
     color: white;
     border-radius: 100%;
+    transition: all 0.5s ease-in-out;
 
 }
 
@@ -78,7 +78,7 @@ button:hover {
 }
 
 #lugares-logo {
-    border: 2px solid rgb(12, 209, 12);
+    border: 2px solid grey;
 }
 
 p {
