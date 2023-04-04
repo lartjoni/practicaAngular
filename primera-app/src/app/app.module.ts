@@ -10,6 +10,7 @@ import { TerceroComponent } from './card/tercero/tercero.component';
 import { CuartoComponent } from './card/cuarto/cuarto.component';
 import { QuintoComponent } from './card/quinto/quinto.component';
 import { FooterComponent } from './footer/footer.component';
+import { ModalsComponent } from './modals/modals.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FooterComponent } from './footer/footer.component';
     CuartoComponent,
     QuintoComponent,
     FooterComponent,
+    ModalsComponent,
    ],
   imports: [
     BrowserModule,

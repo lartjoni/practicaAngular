@@ -1,0 +1,507 @@
+    <!-- Modal-0 Iniciar Sesion
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="mb-3">
+                        <label for="exampleFormControl" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControl"
+                            placeholder="email@example.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="inputPassword" class="form-label"></label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    -->
+
+
+    <!-- modal-1 Banner  ¿<a class="nav-link" href="#">Link</a>? -->
+    <div class="modal fade" id="bannerModal" tabindex="-1" aria-labelledby="bannerModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="bannerModalLabel">Cambiar Banner</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+                        </div>
+                        <div class="mb-3">
+                            <label for="url" class="col-form-label"><span><strong> Escribir direccion URL
+                                        o...</strong></span></label>
+                            <input class="form-control" id="url" type="url" placeholder="Escribir aqui...">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formFileSm" class="form-label"><span><strong>...agregar desde
+                                        archivo</strong></span></label>
+                            <input class="form-control form-control-sm" id="formFileSm" type="file">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Guardar Cambio</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- modal-2 infoPersonal   (vbtn-radio11 a 15)-->
+    <div class="modal fade" id="infoPersonalModal" tabindex="-1" aria-labelledby="infoPersonalModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="infoPersonalModalLabel">Elegir elemento a agregar o Remplazar</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+
+                            <h5>Seleccionar un Elemento</h5>
+                            <div class="btn-group-vertical" role="group"
+                                aria-label="Vertical radio toggle button group">
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio11"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio11">Foto</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio12"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio12">Nombre y Apellido</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio13"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio13">Oficio</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio14"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio14">Localidad</label>
+
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio15"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio15">Informacion de
+                                    Contacto</label>
+
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="text" class="col-form-label"><span><strong> Escribir a Mano, si
+                                        no...</strong></span></label>
+                            <textarea class="form-control" id="text"
+                                placeholder="Escribir aqui nombre del titulo o texto o fechas"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="formFileSm" class="form-label"><span><strong>...agregar como
+                                        archivo</strong></span></label>
+                            <input class="form-control form-control-sm" id="formFileSm" type="file">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Agregar</button>
+                    <button type="button" class="btn btn-primary">Reemlazar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal-3 agregar articulo+-Modal  (y borrar x posicion) en 3°card ( modal 3y4 usan casi mismo molde, prolema en el n° de radio aca ejemplo: for=vbtn-radio1  si uno lo tiene el otro no) (vbtn-radio8 a10)-->
+    <div class="modal fade" id="articulo+-Modal" tabindex="-1" aria-labelledby="articulo+-ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="articulo+-ModalLabel">Agregar o Borrar Artículo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+
+                            <h5>Elegir Posición</h5>
+                            <div class="btn-group-vertical" role="group"
+                                aria-label="Vertical radio toggle button group">
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio8"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio8">Primero</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio9"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio9">Medio</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio10"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio10">Ultimo</label>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Agregar</button>
+                    <button type="button" class="btn btn-primary">Borrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal-4 botonEditar agrega o reeplaza °3card ( modal 3y4 usan casi mismo molde, prolema en el n° de radio aca ejemplo: for=vbtn-radio1  si uno lo tiene el otro no)  (vbtn-radio4 a 7)-->
+    <div class="modal fade" id="botonEditarModal" tabindex="-1" aria-labelledby="botonEditarModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="botonEditarModalLabel">Elegir elemento a agregar o Remplazar</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+
+                            <h5>Seleccionar un Elemento</h5>
+                            <div class="btn-group-vertical" role="group"
+                                aria-label="Vertical radio toggle button group">
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio4"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio4">Logo</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio5"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio5">Nombre de
+                                    Establecimiento</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio6"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio6">Texto</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio7"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio7">Fechas</label>
+
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="text" class="col-form-label"><span><strong> Escribir a Mano, si
+                                        no...</strong></span></label>
+                            <textarea class="form-control" id="text"
+                                placeholder="Escribir aqui nombre del titulo o texto o fechas"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="formFileSm" class="form-label"><span><strong>...agregar como
+                                        archivo</strong></span></label>
+                            <input class="form-control form-control-sm" id="formFileSm" type="file">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Agregar</button>
+                    <button type="button" class="btn btn-primary">Reemlazar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal-5 botonBorrarModal 3°card  (btncheck 1a4)-->
+    <div class="modal fade" id="botonBorrarModal" tabindex="-1" aria-labelledby="botonBorrarModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="botonBorrarModalLabel">Elegir elementos a eliminar</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+                            <h5>Opcion Multiple</h5>
+                            <div class="btn-group-vertical" role="group" aria-label="Vertical checkbox button group">
+
+                                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck1">Logo</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck2">Nombre de
+                                    Establecimiento</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck3">Texto</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck4">Fecha</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Borrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--modal-6 skillsArtic  +-    (vbtn-radio16 a 18)-->
+    <div class="modal fade" id="skillsArticModal" tabindex="-1" aria-labelledby="skillsArticModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="skillsArticModalLabel">Agregar o Borrar Artículo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+
+                            <h5>Elegir Posición</h5>
+                            <div class="btn-group-vertical" role="group"
+                                aria-label="Vertical radio toggle button group">
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio16"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio16">Primero</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio17"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio17">Medio</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio18"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio18">Ultimo</label>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Agregar</button>
+                    <button type="button" class="btn btn-primary">Borrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--modal-7 skillsEditar  (vbtn-radio20 a 23) en este mejor seria form casillado-->
+    <div class="modal fade" id="skillsEditarModal" tabindex="-1" aria-labelledby="skillsEditarModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="skillsEditarModalLabel">Elegir elemento a agregar o Remplazar</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+
+                            <h5>Seleccionar un Elemento</h5>
+                            <div class="btn-group-vertical" role="group"
+                                aria-label="Vertical radio toggle button group">
+
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio20"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio20"> barra de progreso</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio21"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio21"> color</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio22"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio22">skill / habilidad</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio23"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio23">porcentaje</label>
+
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="text" class="col-form-label"><span><strong> Escribir
+                                        datos</strong></span></label>
+                            <textarea class="form-control" id="text" placeholder="aqui"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Agregar</button>>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--modal-8 skillsBorrar  (btncheck5a7)-->
+    <div class="modal fade" id="skillsBorrarModal" tabindex="-1" aria-labelledby="skillsBorrarModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="skillsBorrarModalLabel">Elegir elementos a eliminar</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+                            <h5>Opcion Multiple</h5>
+                            <div class="btn-group-vertical" role="group" aria-label="Vertical checkbox button group">
+
+                                <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck5">Barra de Progreso</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck6">Nombre habilidad / skills</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck7">porcentaje</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Borrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--modal-9 proyectArtic  (vbtn-radio24 a 26)-->
+    <div class="modal fade" id="proyectArticModal" tabindex="-1" aria-labelledby="proyectArticModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="proyectArticModalLabel">Agregar o Borrar Artículo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+
+                            <h5>Elegir Posición</h5>
+                            <div class="btn-group-vertical" role="group"
+                                aria-label="Vertical radio toggle button group">
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio24"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio24">Primero</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio25"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio25">Medio</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio26"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio26">Ultimo</label>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Agregar</button>
+                    <button type="button" class="btn btn-primary">Borrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--modal-10 proyectEditar  (vbtn-radio27 a 28)-->
+    <div class="modal fade" id="proyectEditarModal" tabindex="-1" aria-labelledby="proyectEditarModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="proyectEditarModalLabel">Elegir elemento a agregar o Remplazar</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+
+                            <h5>Seleccionar un Elemento</h5>
+                            <div class="btn-group-vertical" role="group"
+                                aria-label="Vertical radio toggle button group">
+
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio27"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio27"> Titulo</label>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio28"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-primary" for="vbtn-radio28"> link</label>
+
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="text" class="col-form-label"><span><strong> Escribir
+                                        datos</strong></span></label>
+                            <textarea class="form-control" id="text" placeholder="aqui"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Agregar</button>>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--modal-11 proyectBorrar  (btncheck8 a 9)-->
+    <div class="modal fade" id="proyectBorrarModal" tabindex="-1" aria-labelledby="proyectBorrarModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="proyectBorrarModalLabel">Elegir elementos a eliminar</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+                            <h5>Opcion Multiple</h5>
+                            <div class="btn-group-vertical" role="group" aria-label="Vertical checkbox button group">
+
+                                <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck8">Titulo</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck9" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btncheck9">link</label>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Borrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
