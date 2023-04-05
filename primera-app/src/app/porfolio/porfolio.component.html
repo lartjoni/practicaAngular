@@ -1,7 +1,7 @@
 <nav class="navbar-expand-lg sticky-top">
     <div class="nav">
         <div class="logo-navegador">
-            <img class="logo" src="logo-argprog.png" alt="logo arg programa">
+            <img class="logo" src="./assets/img/logo-argprog.png" alt="logo arg programa">
             <div class="texto-navegador">Argentina Programa</div>
         </div>
         <div class="icono-redes" href="#">
@@ -12,7 +12,7 @@
             <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-twitter"></i></a>
         </div>
-        <!--icono tipo boton enlazado con modal-1 para Iniciar Sesion-->
+        <!--icono tipo boton enlazado con modal-0 para Iniciar Sesion-->
         <i class="bi bi-person-lock" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
 
         </i>
@@ -21,9 +21,243 @@
 
 <app-modals></app-modals>
 
-<app-primero></app-primero>
-<app-segundo></app-segundo>
-<app-tercero></app-tercero>
-<app-cuarto></app-cuarto>
-<app-quinto></app-quinto>
-<app-footer></app-footer>
+<div class="card">
+    <div class="position-relative">
+        <div class="position-absolute top-0 end-0">
+        </div>
+    </div>
+    <div>
+        <img src="./assets/img/fondo1.jpg" class="card-img-top" alt="fondo montaña">
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10">
+                <div class="d-flex">
+                    <img src="./assets/img/persona.jpg" class="carnet" alt="persona">
+                </div>
+                <div class="card-body" id="card1">
+                    <h5 class="card-title">Milo dEscorpio</h5>
+                    <span>Full Stack
+                        Developer Jr</span>
+                    <p class="card-text">Informatico en Curso <br>Buenos Aires (Argentina) <a href="#"
+                            class="card-link">informacion de contacto ¿modal?</a><br></p>
+                </div>
+            </div>
+            <div id="logo-derecho" class="col-xs-12 col-sm-2">
+                <img class="logo" id="logo-derecho-lugar" src="./assets/img/logo-argprog.png"
+                    alt="logo arg programa">Argentina
+                Programa
+            </div>
+        </div>
+        <div class="btn-group dropend">
+            <div type="button" class="btn btn-outline-primary btn-sm dropdown-toggle" data-bs-toggle="dropdown"
+                data-bs-auto-close="true" aria-expanded="false">
+                Tengo interés en
+            </div>
+            <!--borde color azul (primary, ej verde: success)-->
+            <div class="dropdown-menu border border-primary">
+                <a class="dropdown-item" href="#deMi">Acerca de Mi</a>
+                <a class="dropdown-item" href="#experiencia">Experiencia</a>
+                <a class="dropdown-item" href="#educacion">Educación</a>
+                <a class="dropdown-item" href="#skills">Habilidades/Skills</a>
+                <a class="dropdown-item" href="#proyectos">Proyectos</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+
+        <div class="row">
+
+            <div class="col-10" medio>
+                <h5 class="card-title" id="deMi">Acerca de</h5>
+            </div>
+            <div class="col-2" editores>
+            </div>
+            <p id="text-acercade" class="card-text">Some quick example text to build on the card title and make up the bulk
+                of the card's
+                content.</p>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+
+        <div class="row">
+            <div class="col-10" medio>
+                <h3 class="card-title" id="experiencia">Experiencia</h3>
+            </div>
+            <div class="col-2" editores>
+            </div>
+        </div>
+
+        <div class="row" id="filaEspacio">
+            <div class="col-xs-12 col-sm-2" logo>
+                <img id="lugares-logo" class="logo" src="./assets/img/logo-argprog.png" alt="logo arg programa">
+            </div>
+            <div class="col-xs-12 col-sm-8" id=medio>
+                <h4 class="card-title">Nombre de Lugares </h4>
+
+                <p>seccion, expecialidades</p>
+                <p><strong>fechas</strong></p><strong>
+                </strong>
+
+            </div>
+            <div class="col-xs-12 col-sm-2" id=editores>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-10" medio>
+                <h3 class="card-title" id="educacion">Educación</h3>
+            </div>
+            <div class="col-2" editores>
+            </div>
+        </div>
+
+        <div class="row" id="filaEspacio">
+            <div class="col-xs-12 col-sm-2" logo>
+                <img id="lugares-logo" class="logo" src="./assets/img/logo-argprog.png" alt="logo arg programa">
+            </div>
+            <div class="col-xs-12 col-sm-8" id=medio>
+                <h4 class="card-title">Nombre de Lugares </h4>
+
+                <p>seccion, expecialidades</p>
+                <p><strong>fechas</strong></p><strong>
+                </strong>
+
+            </div>
+            <div class="col-xs-12 col-sm-2" id=editores>
+            </div>
+
+        </div>
+        <div class="row" id="filaEspacio">
+            <div class="col-xs-12 col-sm-2" logo>
+                <img id="lugares-logo" class="logo" src="./assets/img/logo-argprog.png" alt="logo arg programa">
+            </div>
+            <div class="col-xs-12 col-sm-8" id=medio>
+                <h4 class="card-title">Nombre de Lugares </h4>
+
+                <p>seccion, expecialidades</p>
+                <p><strong>fechas</strong></p><strong>
+                </strong>
+
+            </div>
+            <div class="col-xs-12 col-sm-2" id=editores>
+            </div>
+
+        </div>
+        <div class="row" id="filaEspacio">
+            <div class="col-xs-12 col-sm-2" logo>
+                <img id="lugares-logo" class="logo" src="./assets/img/logo-argprog.png" alt="logo arg programa">
+            </div>
+            <div class="col-xs-12 col-sm-8" id=medio>
+                <h4 class="card-title">Nombre de Lugares </h4>
+
+                <p>seccion, expecialidades</p>
+                <p><strong>fechas</strong></p><strong>
+                </strong>
+
+            </div>
+            <div class="col-xs-12 col-sm-2" id=editores>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-10" medio>
+                <h5 class="card-title" id="skills">Hard Skills & Soft Skills</h5>
+            </div>
+            <div class="col-2" editores>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" logo>
+            </div>
+            <div class="col-8" medio>
+                <p>texto referencia a barra</p>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">75%
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 editores">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" logo>
+            </div>
+            <div class="col-8" medio>
+                <p>texto referencia a barra</p>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">75%
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 editores">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+
+        <div class="row">
+            <div class="col-10" medio>
+                <h3 class="card-title" id="proyectos">Proyectos</h3>
+            </div>
+            <div class="col-2" editores>
+            </div>
+        </div>
+
+        <div class="row" id="filaEspacio">
+            <div class="col-xs-12 col-sm-2" logo>
+                <img id="lugares-logo" class="logo" src="./assets/img/logo-argprog.png" alt="logo arg programa">
+            </div>
+            <div class="col-xs-12 col-sm-8" id=medio>
+                <h4 class="card-title">Nombre de Lugares </h4>
+                <p><strong>Some quick example text to build on the card title and make up the bulk
+                        of the card's
+                        content.</strong></p><strong>
+                </strong>
+
+            </div>
+            <div class="col-xs-12 col-sm-2" id=editores>
+            </div>
+
+        </div>
+        <div class="row" id="filaEspacio">
+            <div class="col-xs-12 col-sm-2" logo>
+                <img id="lugares-logo" class="logo" src="./assets/img/logo-argprog.png" alt="logo arg programa">
+            </div>
+            <div class="col-xs-12 col-sm-8" id=medio>
+                <h4 class="card-title">Nombre de Lugares </h4>
+                <p><strong>Some quick example text to build on the card title and make up the bulk
+                        of the card's
+                        content.</strong></p><strong>
+                </strong>
+
+            </div>
+            <div class="col-xs-12 col-sm-2" id=editores>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="d-flex justify-content-center">
+        <a class="btn btn-outline-primary" href="#card1">Volver a Inicio</a>
+    </div>
+</footer>

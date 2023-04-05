@@ -15,12 +15,7 @@ import { EdicionComponent } from './edicion/edicion.component';
 const routes: Routes = [
   {path: 'porfolio', component:PorfolioComponent},
   {path: 'edicion', component:EdicionComponent},
-  {path: '', component:NavbarComponent},
-  {path: '', component:NavbarComponent},
-  {path: '', component:NavbarComponent},
-  {path: '', component:NavbarComponent},
-  {path: '', component:NavbarComponent},
-  {path: '', redirectTo:'/', pathMatch:'full'},
+  {path: '', redirectTo:'/porfolio', pathMatch:'full'},
   {path: '**', component:Pagina404Component}
 
 ];
