@@ -12,6 +12,8 @@ import { QuintoComponent } from './card/quinto/quinto.component';
 import { FooterComponent } from './footer/footer.component';
 import { ModalsComponent } from './modals/modals.component';
 import { Pagina404Component } from './pagina404/pagina404.component';
+import { PorfolioComponent } from './porfolio/porfolio.component';
+import { EdicionComponent } from './edicion/edicion.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { Pagina404Component } from './pagina404/pagina404.component';
     FooterComponent,
     ModalsComponent,
     Pagina404Component,
+    PorfolioComponent,
+    EdicionComponent,
    ],
   imports: [
     BrowserModule,

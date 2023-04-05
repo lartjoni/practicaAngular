@@ -1,8 +1,7 @@
-<!--linea img en src"importante poner "./ " (primero) luego escribir ruta de foto"-->
 <nav class="navbar-expand-lg sticky-top">
     <div class="nav">
         <div class="logo-navegador">
-            <img class="logo" src="./assets/img/logo-argprog.png" alt="logo arg programa">
+            <img class="logo" src="logo-argprog.png" alt="logo arg programa">
             <div class="texto-navegador">Argentina Programa</div>
         </div>
         <div class="icono-redes" href="#">
@@ -13,16 +12,18 @@
             <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-twitter"></i></a>
         </div>
-        <!--boton desplegable Cerrar Sesion-->
-        <i class="bi bi-person-circle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true"
-        aria-expanded="false">
-        <div class="dropdown-menu">
-            <div id="userDesplego" class="dropdown-item text-center"><a routerLink="/porfolio"></a> <strong>Cerrar Sesion<br>Click
-                    aqui</strong>
-            </div>
-        </div>
-    </i>
+        <!--icono tipo boton enlazado con modal-1 para Iniciar Sesion-->
+        <i class="bi bi-person-lock" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+        </i>
     </div>
 </nav>
 
 <app-modals></app-modals>
+
+<app-primero></app-primero>
+<app-segundo></app-segundo>
+<app-tercero></app-tercero>
+<app-cuarto></app-cuarto>
+<app-quinto></app-quinto>
+<app-footer></app-footer>

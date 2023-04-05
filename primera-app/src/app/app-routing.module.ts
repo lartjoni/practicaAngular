@@ -9,11 +9,19 @@ import { QuintoComponent } from './card/quinto/quinto.component';
 import { FooterComponent } from './footer/footer.component';
 import { ModalsComponent } from './modals/modals.component';
 import { Pagina404Component } from './pagina404/pagina404.component';
+import { PorfolioComponent } from './porfolio/porfolio.component';
+import { EdicionComponent } from './edicion/edicion.component';
 
 const routes: Routes = [
-  {path: 'inicio', component:NavbarComponent},
-  {path: 'primeroCard', component:PrimeroComponent},
-  {path: '**', component: Pagina404Component}
+  {path: 'porfolio', component:PorfolioComponent},
+  {path: 'edicion', component:EdicionComponent},
+  {path: '', component:NavbarComponent},
+  {path: '', component:NavbarComponent},
+  {path: '', component:NavbarComponent},
+  {path: '', component:NavbarComponent},
+  {path: '', component:NavbarComponent},
+  {path: '', redirectTo:'/', pathMatch:'full'},
+  {path: '**', component:Pagina404Component}
 
 ];
 
